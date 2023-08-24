@@ -35,6 +35,14 @@
         }
         
     </style> -->
+    <style>
+        @media (max-width: 768px) {
+            img {
+                max-width: 95%; /* La imagen será un 50% más pequeña */
+                height: auto; /* Mantiene la proporción de aspecto de la imagen */
+            }
+        }
+    </style>
 </head>
 
 <body>
@@ -192,18 +200,17 @@
         <div class="container">
             <div class="row g-5">
                 
-                <div class="col-lg-6">
+                <div class="col-lg-6 wow fadeIn" data-wow-delay="0.5s">
                     <!-- <div class="wow fade animated" style="visibility: visible;"> -->
                         
                     <!-- </div> -->
-                    <div class="row gx- h-100">
-                        <div class="col-6 align-self-start wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="row gx-h-100">
+                        <!-- <div class="col-lg-6 align-self-start wow fadeInUp" data-wow-delay="0.1s"> -->
                             <div class="galeri1 wow zoomIn " data-wow-delay="0.5s" style="visibility: visible; animation-delay: 0.5s; animation-name: zoomIn;" >
                                 <img class="imagerotate" src="img/technology.png" alt="">
                             </div>
 
                             <!-- <img class="img-fluid" src="img/about-1.jpg"> -->
-                        </div>
                         <!-- <div class="col-6 align-self-end wow fadeInDown" data-wow-delay="0.1s">
                             <img class="img-fluid" src="img/about-2.jpg">
                         </div> -->
